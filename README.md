@@ -5,7 +5,7 @@ sudo apt-get install ros-noetic-geodesy ros-noetic-pcl-ros ros-noetic-nmea-msgs 
 cd catkin_ws/src
 git clone https://github.com/koide3/ndt_omp.git
 git clone https://github.com/SMRT-AIST/fast_gicp.git --recursive
-git clone https://github.com/koide3/hdl_graph_slam
+git clone https://github.com/0nhc/hdl_graph_slam
 
 cd .. && catkin_make -DCMAKE_BUILD_TYPE=Release
 ```
